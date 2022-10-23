@@ -1,0 +1,314 @@
+body {
+	overflow-x: hidden;
+	font-family: 'Teko', sans-serif;
+}
+
+html {
+	font-size: 10px;
+	color: #FAFAFA;
+	background-color: #181818;
+}
+
+a {
+	text-decoration: none;
+	color: #FAFAFA;
+}
+
+li {
+	list-style-type: none;
+	font-size: 2rem;
+	margin: 10px;
+}
+
+button {
+	font-family: 'Mako', sans-serif;
+	font-weight: 400;
+	padding: 3px;
+	border-radius: 10px;
+
+}
+
+label {
+	font-family: 'Mako', sans-serif;
+	font-weight: 400;
+	font-size: 1.5rem;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	height: auto;
+}
+
+.header {
+	background-image: linear-gradient(#000, #181818);
+	padding: 20px;
+}
+
+.header__content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.content__logo {
+	width: 80px;
+}
+
+.content__nav {
+	display: flex;
+	transition: transform 0.3s;
+}
+
+.content__nav li:hover {
+	transform: translateY(-5px);
+}
+
+main {
+	padding: 0 20px;
+	margin: 10px 0px 30px;
+	min-height: calc(100vh - 207.28px);
+}
+
+img {
+	border-radius: 10px;
+}
+
+h2 {
+	font-weight: 600;
+	font-size: 4rem;
+}
+
+p {
+	font-family: 'Mako', sans-serif;
+	font-weight: 400;
+	font-size: 2rem;
+}
+
+.footer {
+	background-image: linear-gradient(#181818, #000);
+	padding: 0 20px 10px;
+}
+
+.footer__content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer button {
+	right: 5px;
+	padding: 3px;
+	border-radius: 10px;
+}
+
+.content__insta {
+	width: 30px;
+}
+
+.content__news {
+	display: flex;
+	align-items: center;
+}
+
+
+.content__news input {
+	width: 150px;
+	margin: 10px;
+}
+
+.galeria {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: space-around;
+}
+
+.card {
+	width: 100%;
+	max-width: 380px;
+	margin: 10px 0 0px;
+	padding: 10px 10px;
+	position: relative;
+}
+
+.card_art {
+	position: relative;
+}
+
+.card_art img {
+	width: 100%;
+	max-width: 400px;
+
+}
+
+.card_art h3 {
+	position: absolute;
+	left: 5px;
+	bottom: 5px;
+	font-size: 1.4rem;
+}
+
+.card_precio {
+	font-size: 2.5rem;
+	margin: 5px;
+}
+
+.card_carrito {
+	border: 1px solid #FAFAFA;
+	position: absolute;
+	padding: 10px;
+	right: 10px;
+	border-radius: 10px;
+	font-size: 2.5rem;
+}
+
+.card p {
+	margin: 3px;
+}
+
+.carrito {
+	background-color: #181818;
+	border: 1px solid #FAFAFA;
+	position: fixed;
+	z-index: 100;
+	padding: 5px;
+	right: calc((100vw - 1200px)/2);
+	top: 90px;
+	border-radius: 10px;
+}
+
+.carrito p {
+	margin: 2px;
+}
+
+.carrito button {
+	position: absolute;
+	right: 5px;
+	padding: 3px;
+	border-radius: 10px;
+}
+
+.verCarrito {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: space-around;
+}
+
+.tarjetaArt {
+	border: 1px solid #FAFAFA;
+	border-radius: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.tarjetaArt img {
+	width: 100%;
+	max-width: 100px;
+	margin: 5px;
+}
+
+
+.tarjetaArt p {
+	font-size: 2.5rem;
+	margin: 5px;
+}
+
+.tarjetaArt button {
+	position: relative;
+	left: 235px;
+	bottom: 5px;
+	padding: 3px;
+	border-radius: 10px;
+	background-color: firebrick;
+	color: #FAFAFA;
+}
+.confirm {
+	position:relative;
+	left: 94%;
+	padding: 3px;
+	border-radius: 10px;
+	background-color:darkgreen;
+	color: #FAFAFA;
+}
+.comprar {
+	max-width: 500px;
+	margin: 0 auto;
+  }
+ 
+  .seccionComprar {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	border: 1px solid #FAFAFA;
+	border-radius: 10px;
+
+  } 
+  .seccionComprar2 {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	border: 1px solid #FAFAFA;
+	border-radius: 10px;
+	align-items: flex-end;
+  }
+  
+  .seccionComprar h3 {
+  text-align: center;
+  padding-bottom: 7px;
+  font-size: 2rem;
+  }
+  .seccionComprar2 h3 {
+	text-align: center;
+	padding-bottom: 7px;
+	font-size: 2rem;
+	}
+  
+  .botonesCompra {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 15px;
+  }
+
+  .botonesCompra button{
+	padding: 3px;
+	border-radius: 10px;
+  }
+  
+  
+  .textoDireccion{
+	width: 175px;
+	margin: 5px;
+	text-align: right;
+  }
+  
+  .finalizarCompra {
+	padding: 10px;
+	border: 1px solid #FAFAFA;
+	border-radius: 10px;
+  }
+  .textoDireccion{
+	width: 175px;
+	margin: 5px;
+	text-align: right;
+  }
+
+  .btnCancel{
+	padding: 3px;
+	border-radius: 10px;
+	border-radius: 10px;
+	background-color: firebrick;
+	color: #FAFAFA;
+  }
+
+  .btnFinal{
+	padding: 3px;
+	border-radius: 10px;
+	border-radius: 10px;
+	background-color:darkgreen;
+	color: #FAFAFA;
+  }

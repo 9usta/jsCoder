@@ -1,0 +1,58 @@
+ [
+    {
+        "codigo": "22101",
+        "esmalte": "si",
+        "largo": 34,
+        "ancho": 21,
+        "prof": 7,
+        "precio": 6000,
+        "img": "1-bonasi-rec-blanca.webp"
+    },
+    {
+        "codigo": "22102",
+        "esmalte": "si",
+        "largo": 36,
+        "ancho": 24,
+        "prof": 4,
+        "precio": 4500,
+        "img": "2-bonasi-rect-ocre.webp"
+    },
+    {
+        "codigo": "22103",
+        "esmalte": "no",
+        "largo": 22,
+        "ancho": 22,
+        "prof": 8,
+        "precio": 4000,
+        "img": "3-bonsai-hexagoal.webp"
+
+    },
+    {
+        "codigo": "22104",
+        "esmalte": "no",
+        "largo": 34,
+        "ancho": 20,
+        "prof": 7,
+        "precio": 6000,
+        "img": "4-bonsai-molduras.webp"
+
+    },
+    {
+        "codigo": "22105",
+        "esmalte": "no",
+        "largo": 28,
+        "ancho": 26,
+        "prof": 5,
+        "precio": 5000,
+        "img": "5-bonsai-rectangular.webp"
+    },
+    {
+        "codigo": "22106",
+        "esmalte": "no",
+        "largo": 32,
+        "ancho": 24,
+        "prof": 5,
+        "precio": 5500,
+        "img": "6-hexagonal ocre labio.webp"
+    }
+]
